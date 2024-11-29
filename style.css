@@ -110,3 +110,74 @@ main {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+.content-container {
+  padding: 3.5em 6em;
+  padding-bottom: 8em;
+  padding-right: 0;
+  width: 75%;
+}
+.content-container > h1 {
+  font-size: 3.2em;
+  font-weight: 800;
+  margin-bottom: 0.3em;
+}
+.content-container > p {
+  font-size: 1.5em;
+  margin-bottom: 3.3em;
+}
+.color-container {
+  border: 1px solid #eaeaea;
+  width: 100%;
+}
+.color-container > h2 {
+  font-size: 2.2em;
+  font-weight: 900;
+  margin: 0.6em;
+}
+.color-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.color-table th,
+td {
+  border-bottom: 1px solid #eaeaea;
+  padding: 1em;
+  text-align: start;
+  font-weight: 900;
+  font-size: 1.1em;
+}
+.color-table > thead th {
+  color: #c3c3c3;
+  font-size: 0.9em;
+}
+.color-table div#one {
+  background-color: #9f2b68;
+}
+.color-table div#two {
+  background-color: #f2d2bd;
+}
+.color-table div#three {
+  background-color: #de3163;
+}
+.color-table div#four {
+  background-color: #811331;
+}
+.color-table div#five {
+  background-color: #ff7f50;
+}
+.color-table div#six {
+  background-color: #f88379;
+}
+.color-table div#seven {
+  background-color: #dc143c;
+}
+.color-table div#eight,
+#eight {
+  background-color: #aa336a;
+}
+.color-table div#nine {
+  background-color: #c9a9a6;
+}
+.color-table div#ten {
+  background-color: #ff00ff;
+}
